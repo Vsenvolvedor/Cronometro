@@ -8,7 +8,7 @@
 - Pausar
 - Parar
 
-Com o intuito de práticar JavaScript, um bom projeto simples.
+Com o intuito de práticar JavaScript, um projeto simples.
 
 <h1 aling="center">
     <img alt="cronômetro" title="cronômetro" src="./git/cronometro.PNG"/>
