@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* CONFIG */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    /*  */
+    --bg:#C9CDD6;
+    --crom:#515357;
+    --display:#dbdee7;
+    --font:#3e3f42;
+    --play:#6ED46E;
+    --stop:#D45B4E;
+}
+
+body
+{
+    background-color: var(--bg);
+    padding: 0 15px;
+}
+
+/* CRONOMETRO */
+
+.crom
+{   
+    border: 12px solid var(--crom);
+    border-radius: 50%;
+    margin: 140px auto;
+    padding: 15px;
+    max-width: 250px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.432);
+    background-color: var(--display);
+    position: relative;
+}
+
+.crom > div 
+{
+    padding: 70px 60px 20px 60px;
+}
+
+/* DISPLAY */
+
+#display
+{
+    font-size: 36px;
+    color: var(--font);
+    font-family: "Roboto Mono";
+    text-align: center;
+    border-top: 2px solid var(--bg);
+    border-bottom: 2px solid var(--bg);
+
+}
+
+.mili
+{
+    font-size: 18px;
+}
+
+/* BTNS */
+
+.btns
+{
+    display: flex;
+    padding: 40px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btns button
+{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 28px;
+    border: 6px solid var(--crom);
+    border-radius: 45%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+}
+
+.btns button:hover 
+{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
+}
+
+#start
+{
+    background-color: var(--play);
+}
+
+#start:hover 
+{
+    background-color: #6ed46ec9;
+}
+
+#pause
+{
+    background-color: #d4d26e;
+}
+
+#pause:hover
+{
+    background-color: #d4d26ec9;
+}
+
+#stop
+{
+    background-color: var(--stop);
+}
+
+#stop:hover
+{
+    background-color: #D45B4Ec9;
+}
