@@ -15,7 +15,7 @@ start.addEventListener('click', startCrom)
 
 function startCrom()
 {   
-
+    start.setAttribute('disabled','')
     let 
         milInter =  setInterval(()=>addNum("m"),10),
         segInter =  setInterval(()=>addNum("s"),1000)
@@ -47,6 +47,8 @@ function startCrom()
     pause.addEventListener('click', ()=>{
         clearInterval(milInter)
         clearInterval(segInter)
+        start.removeAttribute('disabled')
+       
     })
 
     reset.addEventListener('click', ()=>{
@@ -58,6 +60,8 @@ function startCrom()
         mili.innerHTML = ".0"
         seg.innerHTML = "0"
         min.innerHTML = ""
+        start.removeAttribute('disabled')
+        
     })
 }
 
