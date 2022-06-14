@@ -16,4 +16,4 @@ Com o intuito de práticar JavaScript, um projeto simples.
 
 ## Veja o site dinamicamente
 
-<a href="https://viteydev.github.io/Cronometro/">Cronometro</a>
+<a href="https://vsenvolvedor.github.io/Cronometro/">Cronometro</a>
